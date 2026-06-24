@@ -1,0 +1,34 @@
+{
+  "name": "pruebas-software-dawa",
+  "version": "1.0.0",
+  "description": "Proyecto de Prueba de Software-Carrera DAWA",
+  "main": "index.js",
+  "scripts": {
+    
+  "test": "jest",
+  "test:watch": "jest --watch",
+  "test:coverage": "jest --coverage"
+  },
+  "jest": {
+  "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evelyn03-bit/pruebas-software-dawa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Evelyn03-bit/pruebas-software-dawa/issues"
+  },
+  "homepage": "https://github.com/Evelyn03-bit/pruebas-software-dawa#readme",
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
